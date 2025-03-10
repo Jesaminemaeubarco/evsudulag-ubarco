@@ -21,7 +21,7 @@ export const UserDetail: UserModel [] = [
             id: 2,
             name: 'Jacquelyn Alicando',
             birthday: 'Oct 22, 2002',
-            age: 23,
+            age: 22,
             sex: 'Female',
             address: ' Brgy. Candao Dulag, Leyte',
             imgUrl: 'jacquelyn.jpg'
@@ -46,7 +46,7 @@ export const UserDetail: UserModel [] = [
         personalInfo: {
             id: 4,
             name: 'Mark Elvin Tabuyan',
-            birthday: 'Sep 18, 2002',
+            birthday: 'Sep 18, 2001',
             age: 23,
             sex: 'Male',
             address: 'Pob. Zone 2 Mayorga, Leyte',

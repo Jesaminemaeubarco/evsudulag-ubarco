@@ -3,7 +3,7 @@
     height: 100vh;
     margin: 0;
     padding: 0;
-    background-color: blanchedalmond;
+    background-color: rgba(254, 230, 163, 0.986);
     position: relative;
 }
 .profile {
@@ -12,6 +12,9 @@
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 16px;
 }
 img {
     width: 270px;
