@@ -5,10 +5,11 @@ import { LoginComponent } from './pages/login/login.component';
 import { MaterialModule } from './material.module';
 import { ReactiveFormsModule } from '@angular/forms'
 import { ProfileComponent } from './pages/profile/profile.component';
+import { DashboardComponent } from './pages/dashboard/dashboard.component';
 
 
 @NgModule({
-  declarations: [LoginComponent, ProfileComponent],
+  declarations: [LoginComponent, ProfileComponent, DashboardComponent],
   imports: [
     CommonModule,
     RoutesModule,

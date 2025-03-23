@@ -1,0 +1,68 @@
+.pos-dashboard {
+    display: flex;
+    height: 100vh;
+  }
+  .sidebar {
+    width: 250px;
+    background: #2c3e50;
+    color: white;
+    padding: 20px;
+  }
+  .sidebar ul {
+    list-style: none;
+    padding: 0;
+  }
+  .sidebar li {
+    margin: 10px 0;
+  }
+  .sidebar a {
+    color: white;
+    text-decoration: none;
+  }
+  .content {
+    flex-grow: 1;
+    padding: 20px;
+    background: #ecf0f1;
+  }
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: white;
+    padding: 10px 20px;
+    margin-bottom: 20px;
+  }
+  .btn {
+    background: #3498db;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+  }
+  .summary {
+    display: flex;
+    gap: 10px;
+  }
+  .card {
+    background: white;
+    padding: 15px;
+    flex: 1;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  .products {
+    margin-top: 20px;
+  }
+  .grid {
+    display: flex;
+    gap: 10px;
+  }
+  .product-card {
+    background: white;
+    padding: 15px;
+    flex: 1;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
